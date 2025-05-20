@@ -1,0 +1,43 @@
+//Navbar
+.navbar {
+    background: linear-gradient(180deg, #FFFBEB 0%, #FFFFFF 89.63%);
+    // padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  
+    img {
+      display: none;
+    }
+  
+    &__container {
+      display: flex;
+      align-items: center;
+    }
+  
+    &__logo {
+      font-size: 32px;
+      font-weight: 700;
+      color: #78350F;
+    }
+  
+    .navbar__links {
+      list-style: none;
+      display: flex;
+      align-items: center;
+  
+      li {
+        padding: 24px 16px;
+  
+        a {
+          font-weight: 500;
+          font-size: 16px;
+          text-decoration: none;
+          color: #78350F;
+          transition: color 0.3s;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+  
