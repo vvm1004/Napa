@@ -20,7 +20,7 @@ body {
 
 .amazing {
   position: relative;
-  background-image: url(../../images/Section\ \(21\).png);
+  background-image: url(../images/amazing/Background.png);
   background-size: cover;
   height: 909px;
 }
@@ -149,7 +149,7 @@ body {
 }
 
 .articles {
-  background-image: url(../images/Section\ \(13\).png);
+  background-image: url(../images/articles/Background.png);
   background-size: cover;
   height: 705px;
 }
@@ -426,7 +426,7 @@ body {
 }
 
 .grow {
-  background-image: url(../images/Section\ \(11\).png);
+  background-image: url(../images/grow/BackGround.png);
   height: 961px;
   background-size: cover;
 }
@@ -587,7 +587,7 @@ body {
 }
 
 .map {
-  background-image: url(../images/Section\ \(12\).png);
+  background-image: url(../images/map/BackgroundPC.png);
   height: 717px;
   background-size: cover;
 }
