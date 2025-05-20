@@ -293,6 +293,7 @@ body {
     height: 472px;
     gap: 48px;
   }
+
   &__card {
     background-color: #0F172A;
     border-radius: 10px;
@@ -365,6 +366,7 @@ body {
   }
 }
 
+// The Best Section (Card)
 
 
 // Why join us
@@ -386,10 +388,11 @@ body {
       font-weight: 800;
       line-height: 110.00000000000001%;
       color: #0F172A;
-    } 
+    }
     ul {
       margin-top: 24px;
     }
+
     li {
       display: flex;
       align-items: center;
@@ -404,12 +407,12 @@ body {
     }
   }
 
-
-    &__icon {
+  &__icon {
     width: 24px;
     height: 24px;
     margin-right: 6px;
   }
+ 
 
   .btn {
     margin-top: 24px;
