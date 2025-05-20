@@ -235,8 +235,7 @@ body {
   height: 472px;
   gap: 48px;
 }
-
-.card {
+.the-best__card {
   background-color: #0F172A;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
@@ -248,44 +247,44 @@ body {
   position: relative;
   z-index: 2;
 }
-.card:hover {
+.the-best__card:hover {
   transform: scale(1.03);
 }
-.card > img {
+.the-best__card > img {
   width: 100%;
   height: 220px;
 }
-.card-content {
+.the-best__card-content {
   padding: 32px 32px 0px 32px;
 }
-.card-title {
+.the-best__card-title {
   font-size: 24px;
   font-weight: 700;
   color: #fff;
   margin-bottom: 4px;
 }
-.card-description {
+.the-best__card-description {
   font-size: 18px;
   font-weight: 400;
   line-height: 160%;
   color: #fff;
 }
-.card-layout {
+.the-best__card-layout {
   padding: 32px;
   height: 120px;
 }
-.card-button {
+.the-best__card-button {
   cursor: pointer;
   padding: 16px;
   display: flex;
   border-radius: 8px;
   border: 1px solid #fff;
 }
-.card-button img {
+.the-best__card-button img {
   width: 24px;
   height: 24px;
 }
-.card-button__text {
+.the-best__card-button a {
   margin: 0 16px;
   font-size: 20px;
   line-height: 24px;
@@ -302,38 +301,38 @@ body {
 .why-join > img {
   display: none;
 }
-.why-join .content {
+.why-join__content {
   margin-left: 80px;
 }
-.why-join .content h2 {
+.why-join__content h2 {
   font-size: 56px;
   font-weight: 800;
   line-height: 110%;
   color: #0F172A;
 }
-.why-join .content ul {
+.why-join__content ul {
   margin-top: 24px;
 }
-.why-join .icon-li {
-  width: 24px;
-  height: 24px;
-  margin-right: 6px;
-}
-.why-join .content li {
+.why-join__content li {
   display: flex;
   align-items: center;
   list-style-type: none;
 }
-.why-join .content li span {
+.why-join__content li span {
   font-size: 20px;
   font-weight: 400;
   line-height: 180%;
+}
+.why-join__icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 6px;
 }
 .why-join .btn {
   margin-top: 24px;
   padding: 16px;
 }
-.why-join .video img {
+.why-join__video img {
   width: 520px;
   height: 309px;
   margin-right: 80px;

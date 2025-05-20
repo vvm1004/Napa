@@ -114,7 +114,7 @@
     height: auto;
     flex-direction: column;
   }
-  .the-best .card {
+  .the-best .the-best__card {
     min-width: 361px;
   }
   .why-join {
@@ -159,21 +159,21 @@
     bottom: 28.61px;
     right: 15.31px;
   }
-  .why-join .content {
+  .why-join__content {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 0 !important;
   }
-  .why-join .content h2 {
+  .why-join__content h2 {
     font-size: 32px;
     font-weight: 700;
   }
-  .why-join .content li {
+  .why-join__content li {
     display: flex;
     align-items: center;
   }
-  .why-join .content li span {
+  .why-join__content li span {
     font-size: 16px;
     font-weight: 400;
     line-height: 140%;
@@ -188,7 +188,7 @@
     background-color: white;
     border-radius: 30px;
   }
-  .why-join .video img {
+  .why-join__video img {
     position: relative;
     width: 329px;
     height: 234px;
