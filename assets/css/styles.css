@@ -26,8 +26,8 @@ body {
 }
 .amazing__backlight {
   position: absolute;
-  bottom: 126px;
-  left: 1173px;
+  right: 0%;
+  bottom: 14%;
 }
 .amazing__header {
   display: flex;
