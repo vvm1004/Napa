@@ -391,6 +391,9 @@
   .amazing__footer button {
     margin-top: 32px;
   }
+  .amazing__backlight {
+    display: none;
+  }
   .footer .container {
     flex-direction: column;
   }
