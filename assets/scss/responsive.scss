@@ -90,20 +90,43 @@
             align-items: center !important;
             text-align: center !important;
 
-            &__image-1 {
-                left: 174px !important;
-            }
+            // &__image-1 {
+            //     left: 174px !important;
+            // }
 
-            &__image-2 {
-                left: 194px !important;
+            // &__image-2 {
+            //     left: 194px !important;
+            // }
+            p{
+                margin-bottom: 32px;
+            }
+            .feature__image{
+                &-cup::before{
+                    top: -24% !important;
+                    left: 45% !important;
+                }
+                &-hamburger::before{
+                    top: -2% !important;
+                    left: 48% !important;
+                }
+                &-tivi::before{
+                    top: -4% !important;
+                    left: 53% !important;
+                
+                }
             }
         }
+        .feature:nth-child(3) p {
+            margin-bottom: 0;
+          }
+ 
     }
 
 
     // The best
     .the-best {
         height: auto;
+        padding: 48px 16px;
 
         .rectangle-26 {
             //   display: none;
@@ -140,11 +163,12 @@
 
         .the-best__header {
             flex-direction: column;
-            align-items: normal;
             gap: 32px;
+            margin-bottom: 32px;
 
             h2 {
                 font-size: 32px;
+                text-align: center;
             }
         }
 
@@ -154,7 +178,12 @@
         }
 
         .the-best__card {
-            min-width: 361px
+            min-width: 361px;
+            width: auto;
+
+            &-title{
+                margin-bottom: 16px;
+            }
         }
     }
 

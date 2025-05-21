@@ -69,14 +69,27 @@
     align-items: center !important;
     text-align: center !important;
   }
-  .features .feature__image-1 {
-    left: 174px !important;
+  .features .feature p {
+    margin-bottom: 32px;
   }
-  .features .feature__image-2 {
-    left: 194px !important;
+  .features .feature .feature__image-cup::before {
+    top: -24% !important;
+    left: 45% !important;
+  }
+  .features .feature .feature__image-hamburger::before {
+    top: -2% !important;
+    left: 48% !important;
+  }
+  .features .feature .feature__image-tivi::before {
+    top: -4% !important;
+    left: 53% !important;
+  }
+  .features .feature:nth-child(3) p {
+    margin-bottom: 0;
   }
   .the-best {
     height: auto;
+    padding: 48px 16px;
   }
   .the-best .rectangle-26 {
     width: 202.09px;
@@ -104,11 +117,12 @@
   }
   .the-best .the-best__header {
     flex-direction: column;
-    align-items: normal;
     gap: 32px;
+    margin-bottom: 32px;
   }
   .the-best .the-best__header h2 {
     font-size: 32px;
+    text-align: center;
   }
   .the-best .the-best__container {
     height: auto;
@@ -116,6 +130,10 @@
   }
   .the-best .the-best__card {
     min-width: 361px;
+    width: auto;
+  }
+  .the-best .the-best__card-title {
+    margin-bottom: 16px;
   }
   .why-join {
     position: relative;
