@@ -394,8 +394,12 @@
   .footer .container {
     flex-direction: column;
   }
+  .footer__container {
+    align-items: normal;
+  }
   .footer__section {
     margin-top: 48px;
+    text-align: center;
   }
   .footer-app {
     display: flex;

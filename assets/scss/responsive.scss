@@ -497,9 +497,14 @@
     .footer{
         .container{
             flex-direction: column;
+           
+        }
+        &__container{
+            align-items: normal;
         }
         &__section {
             margin-top: 48px;
+            text-align: center;
         }
         &-app {
             display: flex;
