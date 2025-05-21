@@ -860,7 +860,9 @@ body {
   width: 520px;
   height: 309px;
   margin-right: 80px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border: 5px solid #FFFFFF;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.0705882353);
+  border-radius: 25px;
 }
 .why-join__container {
   background-image: url(../../assets/images/why-join/Background.png);

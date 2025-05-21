@@ -53,7 +53,11 @@
         width: 520px;
         height: 309px;
         margin-right: 80px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        border: 5px solid #FFFFFF;
+        box-shadow: 0px 0px 15px 0px #00000012;
+        // box-shadow: 0px 25px 50px -12px #00000040;
+        border-radius: 25px;
+
       }
   
     }
