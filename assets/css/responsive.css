@@ -94,14 +94,14 @@
   .the-best .rectangle-26 {
     width: 202.09px;
     height: 202.09px;
-    left: 45px;
-    top: 644px;
+    left: 8%;
+    top: 30%;
   }
   .the-best .rectangle-25 {
     width: 120.06px;
     height: 120.06px;
-    top: 946px;
-    left: 311px;
+    top: 50%;
+    left: 72%;
   }
   .the-best .rectangle-27 {
     display: none;
@@ -109,8 +109,8 @@
   .the-best .rectangle-251 {
     width: 150.64px;
     height: 150.64px;
-    bottom: 346px;
-    right: 280px;
+    bottom: 18%;
+    right: 66%;
   }
   .the-best .rectangle-261 {
     display: none;
@@ -129,7 +129,6 @@
     flex-direction: column;
   }
   .the-best .the-best__card {
-    min-width: 361px;
     width: auto;
   }
   .the-best .the-best__card-title {
