@@ -480,8 +480,8 @@ body {
 .grow__sidebar ul li:first-child span {
   margin-right: 8px;
 }
-.grow__sidebar__image img {
-  max-width: 944px;
+.grow__sidebar .grow__image img {
+  width: 944px;
   height: 556px;
 }
 
