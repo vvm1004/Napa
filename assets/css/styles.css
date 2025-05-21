@@ -26,10 +26,8 @@ body {
 }
 .amazing__backlight {
   position: absolute;
-  width: 256px;
-  height: 285px;
   bottom: 126px;
-  left: 1138px;
+  left: 1173px;
 }
 .amazing__header {
   display: flex;
