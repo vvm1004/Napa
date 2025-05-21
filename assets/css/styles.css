@@ -760,12 +760,12 @@ body {
 .the-best__card {
   background-color: #0F172A;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 25px 50px -12px rgba(255, 255, 255, 0.2509803922);
   overflow: hidden;
   transition: transform 0.2s;
   width: 33.3333333333%;
   height: 100%;
-  border: 1px;
+  border: 1px solid #0F172A;
   position: relative;
   z-index: 2;
 }
