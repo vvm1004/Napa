@@ -680,7 +680,7 @@ body {
   background-color: #0F172A;
   padding: 80px;
   gap: 80px;
-  height: 776px;
+  height: auto;
   position: relative;
 }
 .the-best .rectangle-26 {
@@ -724,10 +724,10 @@ body {
   right: 37px;
 }
 .the-best__header {
+  max-width: 1280px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 80px;
   margin-bottom: 80px;
 }
 .the-best__header h2 {
@@ -754,7 +754,7 @@ body {
   height: 527px;
 }
 .the-best__container {
-  height: 472px;
+  height: auto;
   gap: 48px;
 }
 .the-best__card {
