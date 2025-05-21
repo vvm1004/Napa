@@ -289,8 +289,8 @@
     display: none;
   }
   .grow__image--mobile {
-    bottom: 96px;
-    left: 16px;
+    left: 2%;
+    top: 48%;
     position: absolute;
   }
   .map {
