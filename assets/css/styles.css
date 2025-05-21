@@ -688,8 +688,8 @@ body {
   height: 271px;
   position: absolute;
   z-index: 1;
-  top: 400px;
-  left: 45px;
+  top: 50%;
+  left: 3%;
 }
 .the-best .rectangle-25 {
   max-width: 161px;
