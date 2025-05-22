@@ -12,7 +12,7 @@ body {
 .btn {
   border: 2px solid #78350F;
   border-radius: 8px;
-  padding: 12px;
+  padding: 12px 28px;
   background-color: transparent;
   cursor: pointer;
   color: #78350F;
@@ -267,6 +267,7 @@ body {
 }
 .because__header-icon {
   cursor: pointer;
+  margin-bottom: 80px;
 }
 .because .grid.wide {
   max-width: 1200px;
@@ -412,10 +413,10 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 140%;
-  color: #475569;
+  color: #E2E8F0;
 }
 .footer .footer__bottom .footer__links a {
-  color: #475569;
+  color: #E2E8F0;
   margin-left: 32px;
   text-decoration: none;
 }
@@ -482,6 +483,9 @@ body {
   width: 944px;
   height: 556px;
 }
+.grow__sidebar .grow__image--mobile {
+  display: none;
+}
 
 .hero-wrapper {
   position: relative;
@@ -513,13 +517,16 @@ body {
   line-height: 160%;
   padding-bottom: 32px;
 }
-.hero-wrapper .hero__signup {
+.hero-wrapper .hero__button .btn {
+  padding: 16px 32px;
+  margin-right: 16px;
+}
+.hero-wrapper .hero__button a {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  margin-right: 16px;
-  padding: 16px;
   color: #78350F;
+  text-decoration: none;
 }
 .hero-wrapper .hero__image img {
   width: 486px;
@@ -738,7 +745,7 @@ body {
 .the-best__header button {
   border: 2px solid #ffffff;
   border-radius: 8px;
-  padding: 20px 24px;
+  padding: 20px 48px;
   background-color: transparent;
   cursor: pointer;
 }
@@ -853,11 +860,19 @@ body {
 }
 .why-join .btn {
   margin-top: 24px;
-  padding: 16px;
+  padding: 16px 32px;
+}
+.why-join .btn a {
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  color: #78350F;
+  transition: color 0.3s;
+  line-height: 24px;
 }
 .why-join__video img {
-  width: 520px;
-  height: 309px;
+  max-width: 100%;
+  object-fit: cover;
   margin-right: 80px;
   border: 5px solid #FFFFFF;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.0705882353);

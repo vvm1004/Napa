@@ -275,6 +275,9 @@
   }
   .grow__sidebar {
     margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .grow__sidebar ul li:not(:first-child) {
     display: none;
@@ -289,9 +292,7 @@
     display: none;
   }
   .grow__image--mobile {
-    left: 2%;
-    top: 48%;
-    position: absolute;
+    display: block !important;
   }
   .map {
     background-image: url(../../assets/images/map/BackgroundMobile.png);
