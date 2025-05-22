@@ -290,6 +290,9 @@
     .because{
         padding: 48px 0;
         height: auto;
+        .container{
+            justify-content: center;
+        }
         .grid.wide {
             justify-content: center;
         }

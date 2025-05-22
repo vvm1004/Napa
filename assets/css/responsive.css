@@ -224,6 +224,9 @@
     padding: 48px 0;
     height: auto;
   }
+  .because .container {
+    justify-content: center;
+  }
   .because .grid.wide {
     justify-content: center;
   }
