@@ -1,3 +1,5 @@
+@use '../base/index' as *;
+
 .articles {
     background-image: url(../images/articles/Background.png);
     background-size: cover;
@@ -11,9 +13,9 @@
   
       h2 {
         font-size: 56px;
-        font-weight: 800;
-        line-height: 110.00000000000001%;
-        color: #0F172A;
+        font-weight: $font-header;
+        line-height: $line-height-tight;
+        color: $color-primary;
       }
   
       &-icon {
@@ -27,15 +29,15 @@
         width: 24px;
         height: 24px;
         margin-left: 16px;
-        color: #78350F;
+        color: $color-accent;
   
       }
   
       &-icon span {
         font-size: 16px;
-        font-weight: 500;
+        font-weight: $font-medium;
         line-height: 24px;
-        color: #78350F;
+        color: $color-accent;
       }
     }
   
@@ -50,11 +52,11 @@
     &__card {
       width: 25%;
       height: 461px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: $shadow-light;
       overflow: hidden;
       border-radius: 10px;
-      border: 1px solid #ccc;
-      background-color: #fff;
+      border: 1px solid $color-muted;
+      background-color: $color-light;  
       transition: transform 0.2s;
       position: relative;
   
@@ -72,17 +74,17 @@
       h3 {
         font-weight: 700;
         font-size: 24px;
-        line-height: 110.00000000000001%;
-        color: #0F172A;
+        line-height: $line-height-tight;
+        color: $color-primary;
         margin-top: 32px;
         padding: 0 32px;
       }
   
       p {
         font-size: 18px;
-        font-weight: 400;
-        line-height: 160%;
-        color: #0F172A;
+        font-weight: $font-regular;
+        line-height: $line-height-base;
+        color: $color-primary;
         margin-top: 16px;
         padding: 0 32px;
       }
@@ -99,16 +101,16 @@
         a {
           text-decoration: none;
           font-size: 16px;
-          font-weight: 500;
+          font-weight: $font-medium;
           line-height: 24px;
-          color: #78350F;
-          margin-right: 16px;
+           color: $color-accent;
+            margin-right: 16px; 
         }
   
         .articles-icon {
           width: 24px;
           height: 24px;
-          color: #78350F;
+          color: $color-accent;
         }
       }
     }

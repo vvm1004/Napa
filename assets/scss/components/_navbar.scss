@@ -1,7 +1,10 @@
 //Navbar
+
+@use '../base/index' as *;
+
 .navbar {
     // background: linear-gradient(180deg, #FFFBEB 0%, #FFFFFF 89.63%);
-    background-color: #FFFBEB;
+    background-color: $color-secondary;
     // padding: 1rem 0;
     position: sticky;
     top: 0;
@@ -18,8 +21,8 @@
   
     &__logo {
       font-size: 32px;
-      font-weight: 700;
-      color: #78350F;
+      font-weight: $font-header;
+      color: $color-accent;
     }
   
     .navbar__links {
@@ -31,10 +34,10 @@
         padding: 24px 16px;
   
         a {
-          font-weight: 500;
+          font-weight: $font-medium;
           font-size: 16px;
           text-decoration: none;
-          color: #78350F;
+          color: $color-accent;
           transition: color 0.3s;
           line-height: 24px;
         }

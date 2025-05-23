@@ -1,23 +1,22 @@
+@use '../base/index' as *;
+
 .grow {
     background-image: url(../images/grow/BackGround.png);
     height: 961px;
     background-size: cover;
-  
-  
-  
-  
+
     h2 {
       font-size: 56px;
-      font-weight: 800;
-      color: #0F172A;
-      line-height: 110.00000000000001%;
+      font-weight: $font-header;
+      color: $color-primary;
+      line-height: $line-height-tight;
     }
   
     p {
-      font-weight: 400;
+      font-weight: $font-regular;
       font-size: 18px;
-      color: #0F172A;
-      line-height: 160%;
+      color: $color-primary;
+      line-height: $line-height-base;
       margin-top: 32px;
     }
   
@@ -36,8 +35,8 @@
           padding: 16px;
           span {
             font-size: 20px;
-            font-weight: 500;
-            color: #0F172A;
+            font-weight: $font-medium;
+            color: $color-primary;
             line-height: 24px;
   
             margin-left: 16px;
@@ -56,7 +55,7 @@
         }
     
         li:first-child {
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: $shadow-light;
           margin-bottom: 16px;
           border-radius: 8px;
           span{
@@ -74,10 +73,8 @@
         &--mobile{
           display: none;
         }
-  
       }
     }
-  
   
   }
   

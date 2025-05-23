@@ -1,6 +1,8 @@
+@use '../base/index' as *;
+
 .because {
     // background: linear-gradient(180deg, #FFFBEB 0%, #FFFFFF 89.63%);
-    background-color: #ffffff;
+    background-color: $color-light;
     height: 732px;
     position: relative;
   
@@ -17,9 +19,9 @@
   
       h2 {
         font-size: 56px;
-        font-weight: 800;
-        line-height: 110.00000000000001%;
-        color: #0F172A;
+        font-weight: $font-header;
+        line-height: $line-height-tight;
+        color: $color-primary;
         // margin-top: 80px;
         margin-bottom: 80px;
       }
@@ -52,11 +54,11 @@
     &-card {
       height: 430px;
       width: calc(100% / 3);
-      background-color: #ffffff;
+      background-color: $color-light;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
       overflow: hidden;
       border-radius: 20px;
-      border: 1px solid #ccc;
+      border: 1px solid $color-muted;
       margin-top: 40px;
       margin-right: 24px;
   
@@ -79,13 +81,13 @@
       &__title {
         font-size: 24px;
         font-weight: 700;
-        line-height: 110.00000000000001%;
+        line-height: $line-height-tight;
       }
   
       &__description {
         font-size: 24px;
-        font-weight: 400;
-        line-height: 160%;
+        font-weight: $font-regular;
+        line-height: $line-height-base;
         // margin-left: 32px;
         // margin-bottom: 16px;
         padding: 16px 32px;
@@ -113,14 +115,14 @@
   
         p {
           font-size: 18px;
-          font-weight: 400;
+          font-weight: $font-regular;
           color: #000000;
-          line-height: 160%;
+          line-height: $line-height-base;
         }
   
         span {
           font-size: 16px;
-          font-weight: 400;
+          font-weight: $font-regular;
           line-height: 140%;
           color: #475569;
         }

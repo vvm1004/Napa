@@ -1,3 +1,5 @@
+@use 'index' as *;
+
 // Base Reset
 * {
   margin: 0;
@@ -13,10 +15,10 @@ body {
 
 // Button
 .btn {
-  border: 2px solid #78350F;
-  border-radius: 8px;
+  border: 2px solid $color-accent;
+  border-radius: $radius-base;
   padding: 12px 28px;
   background-color: transparent;
   cursor: pointer;
-  color: #78350F;
+  color: $color-accent;
 }

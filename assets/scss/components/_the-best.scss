@@ -1,175 +1,175 @@
+@use '../base/index' as *;
+
 .the-best {
-    background-color: #0F172A;
-    padding: 80px;
-    gap: 80px;
-    // background-image: url("../images/Backlights.png");
-    // min-width: 1440px;
-    height: auto;
-    position: relative;
-  
-    .rectangle-26 {
-      max-width: 271px;
-      height: 271px;
-      position: absolute;
-      z-index: 1;
-      top: 50%;
-      left: 3%;
-    }
-  
-    .rectangle-25 {
-      max-width: 161px;
-      height: 161px;
-      position: absolute;
-      z-index: 1;
-      top: 193px;
-      left: 470px;
-    }
-  
-    .rectangle-27 {
-      max-width: 130px;
-      height: 130px;
-      position: absolute;
-      z-index: 1;
-      bottom: 128px;
-      left: 750px;
-    }
-  
-    .rectangle-251 {
-      max-width: 202px;
-      height: 202px;
-      position: absolute;
-      z-index: 1;
-      bottom: 50px;
-      right: 176px;
-    }
-  
-    .rectangle-261 {
-      max-width: 232px;
-      height: 232px;
-      position: absolute;
-      z-index: 1;
-      top: 257px;
-      right: 37px;
-    }
-  
-    &__header {
-      // padding: 0 1.5rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      // gap: 80px;
-      margin-bottom: 80px;
-  
-      h2 {
-        font-size: 56px;
-        font-weight: 800;
-        line-height: 110.00000000000001%;
-        color: #ffffff;
-        // margin-left: 36px;
-  
-      }
-  
-      button {
-        border: 2px solid #ffffff;
-        border-radius: 8px;
-        padding: 20px 48px;
-        background-color: transparent;
-        cursor: pointer;
-        // margin-right: 50px;
-  
-      }
-  
-      &--button {
-        font-size: 24px;
-        line-height: 24px;
-        font-weight: 700;
-        color: #ffffff;
-      }
-    }
-  
-    img {
-      width: 1387px;
-      height: 527px;
-    }
-  
-    &__container {
-      // max-width: 1280px;
-      height: auto;
-      gap: 48px;
-    }
-  
-    &__card {
-      background-color: #0F172A;
-      border-radius: 10px;
-      // box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-      box-shadow: 0px 25px 50px -12px #FFFFFF40;
+  background-color: #0F172A;
+  padding: 80px;
+  gap: 80px;
+  // background-image: url("../images/Backlights.png");
+  // min-width: 1440px;
+  height: auto;
+  position: relative;
 
-      overflow: hidden;
-      transition: transform 0.2s;
-      width: calc(100% / 3);
-      height: 100%;
-      border: 1px solid #0F172A;
-      position: relative;
-      z-index: 2;
-    
-    
-      &:hover {
-        transform: scale(1.03);
-      }
-    
-      >img {
-        width: 100%;
-        height: 220px;
-      }
-    
-      &-content {
-        padding: 32px 32px 0px 32px;
-      }
-    
-      &-title {
-        font-size: 24px;
-        font-weight: 700;
-        color: #fff;
-        margin-bottom: 4px;
-      }
-    
-      &-description {
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 160%;
-        color: #fff;
-      }
-    
-      &-layout {
-        padding: 32px;
-        height: 120px;
-      }
-    
-      &-button {
-        cursor: pointer;
-        padding: 16px;
-        display: flex;
-        border-radius: 8px;
-        border: 1px solid #fff;
-        justify-content: center;
+  .rectangle-26 {
+    max-width: 271px;
+    height: 271px;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 3%;
+  }
 
-    
-        img {
-          width: 24px;
-          height: 24px;
-        }
-    
-        a {
-          margin: 0 16px;
-          font-size: 20px;
-          line-height: 24px;
-          font-weight: 500;
-          color: #ffffff;
-          text-decoration: none;
-        }
-    
-    
-      }
+  .rectangle-25 {
+    max-width: 161px;
+    height: 161px;
+    position: absolute;
+    z-index: 1;
+    top: 193px;
+    left: 470px;
+  }
+
+  .rectangle-27 {
+    max-width: 130px;
+    height: 130px;
+    position: absolute;
+    z-index: 1;
+    bottom: 128px;
+    left: 750px;
+  }
+
+  .rectangle-251 {
+    max-width: 202px;
+    height: 202px;
+    position: absolute;
+    z-index: 1;
+    bottom: 50px;
+    right: 176px;
+  }
+
+  .rectangle-261 {
+    max-width: 232px;
+    height: 232px;
+    position: absolute;
+    z-index: 1;
+    top: 257px;
+    right: 37px;
+  }
+
+  &__header {
+    // padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // gap: 80px;
+    margin-bottom: 80px;
+
+    h2 {
+      font-size: 56px;
+      font-weight: $font-header;
+      line-height: $line-height-tight;
+      color: $color-light;
+
+    }
+
+    button {
+      border: 2px solid $color-light;
+      border-radius: $radius-base;
+      padding: 20px 48px;
+      background-color: transparent;
+      cursor: pointer;
+      // margin-right: 50px;
+
+    }
+
+    &--button {
+      font-size: 24px;
+      line-height: 24px;
+      font-weight: $font-header;
+      color: $color-light;
     }
   }
+
+  img {
+    width: 1387px;
+    height: 527px;
+  }
+
+  &__container {
+    // max-width: 1280px;
+    height: auto;
+    gap: 48px;
+  }
+
+  &__card {
+    background-color: $color-primary;
+    border-radius: $radius-lg;
+    // box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 25px 50px -12px #FFFFFF40;
+
+    overflow: hidden;
+    transition: transform 0.2s;
+    width: calc(100% / 3);
+    height: 100%;
+    border: 1px solid $color-primary;
+    position: relative;
+    z-index: 2;
+
+
+    &:hover {
+      transform: scale(1.03);
+    }
+
+    >img {
+      width: 100%;
+      height: 220px;
+    }
+
+    &-content {
+      padding: 32px 32px 0px 32px;
+    }
+
+    &-title {
+      font-size: 24px;
+      font-weight: $font-header;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+
+    &-description {
+      font-size: 18px;
+      font-weight: $font-regular;
+      line-height: $line-height-base;
+      color: $color-light;
+    }
+
+    &-layout {
+      padding: 32px;
+      height: 120px;
+    }
+
+    &-button {
+      cursor: pointer;
+      padding: 16px;
+      display: flex;
+      border-radius: $radius-base;
+      border: 1px solid $color-light;
+      justify-content: center;
+
+
+      img {
+        width: 24px;
+        height: 24px;
+      }
+
+      a {
+        margin: 0 16px;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: $font-medium;
+        color: $color-light;
+        text-decoration: none;
+      }
+
+    }
+  }
+}

@@ -1,3 +1,5 @@
+@use '../base/index' as *;
+
 .map {
   background-image: url(../images/map/BackgroundPC.png);
   height: 717px;
@@ -24,9 +26,9 @@
 
     span {
       font-size: 14px;
-      font-weight: 400;
+      font-weight: $font-regular;
       line-height: 140%;
-      color: #0F172A;
+      color: $color-primary;
     }
   }
 
@@ -39,14 +41,14 @@
 
   p {
     font-size: 96px;
-    font-weight: 800;
-    line-height: 110.00000000000001%;
-    color: #FFFBEB;
+    font-weight: $font-header;
+    line-height: $line-height-tight;
+    color: $color-secondary;
   }
 
   h3 {
     font-size: 56px;
     font-weight: 800;
-    color: #FFFBEB;
+    color: $color-secondary;
   }
 }

@@ -1,6 +1,8 @@
+@use '../base/index' as *;
+
 .footer {
     height: auto;
-    background-color: #0F172A;
+    background-color: $color-primary;
   
     &__container {
       border-top: 1px solid #2a2d3a;
@@ -13,9 +15,9 @@
       h4 {
         font-size: 16px;
         margin-bottom: 12px;
-        font-weight: 500;
-        line-height: 110.00000000000001%;
-        color: #FFFFFF;
+        font-weight: $font-medium;
+        line-height: $line-height-tight;
+        color: $color-light;
       }
   
       ul {
@@ -26,10 +28,10 @@
           margin-bottom: 12px;
   
           a {
-            color: #E2E8F0;
+            color: $color-muted;
             text-decoration: none;
             font-size: 16px;
-            font-weight: 400;
+            font-weight: $font-regular;
             line-height: 140%;
   
             &:hover {
@@ -41,7 +43,7 @@
   
       &.app-links {
         img {
-          width: 119.66407012939453;
+          width: 120px;
           height: 40px;
           margin-bottom: 8px;
           display: block;
@@ -80,13 +82,13 @@
       justify-content: space-between;
       flex-wrap: wrap;
       font-size: 16px;
-      font-weight: 400;
+      font-weight: $font-regular;
       line-height: 140%;
-      color: #E2E8F0;
+      color: $color-muted;
   
       .footer__links {
         a {
-          color: #E2E8F0;
+          color: $color-muted;
           margin-left: 32px;
           text-decoration: none;
   

@@ -1,4 +1,6 @@
 // Hero + Features Section
+@use '../base/index' as *;
+
 .hero-wrapper {
   position: relative;
   overflow: hidden;
@@ -20,15 +22,15 @@
 
     h2 {
       font-size: 72px;
-      font-weight: 800;
-      color: #0F172A;
+      font-weight: $font-header;
+      color: $color-primary;
       padding-bottom: 32px;
     }
 
     p {
       font-size: 18px;
-      font-weight: 400;
-      line-height: 160%;
+      font-weight: $font-regular;
+      line-height: $line-height-base;
       padding-bottom: 32px;
     }
 
@@ -39,10 +41,9 @@
       }
       a{
         font-size: 20px;
-        font-weight: 500;
+        font-weight: $font-medium;
         line-height: 24px;
-        // padding: 16px;
-        color: #78350F;
+        color: $color-accent;
         text-decoration: none;
       }
     }
@@ -57,17 +58,17 @@
 
     &__watch {
       padding: 12px 8px;
-      border-radius: 8px;
+      border-radius: $radius-base;
       text-decoration: none;
       display: flex;
       align-items: center;
       gap: 8px;
 
       span {
-        font-weight: 500;
+        font-weight: $font-medium;
         font-size: 16px;
         line-height: 24px;
-        color: #78350F;
+        color: $color-accent;
       }
 
       &--icon {
@@ -118,17 +119,17 @@
       }
 
       h3 {
-        font-weight: 500;
+        font-weight: $font-medium;
         font-size: 20px;
-        color: #0F172A;
+        color: $color-primary;
         padding: 16px 0;
       }
 
       p {
-        font-weight: 400;
+        font-weight: $font-regular;
         font-size: 18px;
-        color: #0F172A;
-        line-height: 160%;
+        color: $color-primary;
+        line-height: $line-height-base;
       }
 
       // &__image-1 {

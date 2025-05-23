@@ -69,8 +69,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   border-radius: 10px;
-  border: 1px solid #ccc;
-  background-color: #fff;
+  background-color: #FFFFFF;
   transition: transform 0.2s;
 }
 .amazing__card:hover {
@@ -130,10 +129,10 @@ body {
   font-size: 56px;
   font-weight: 800;
   line-height: 110%;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .amazing__footer button {
-  border: 2px solid #ffffff;
+  border: 2px solid #FFFFFF;
   border-radius: 8px;
   padding: 20px 48px;
   background-color: transparent;
@@ -143,7 +142,7 @@ body {
   font-size: 24px;
   line-height: 24px;
   font-weight: 700;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .articles {
@@ -192,8 +191,8 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   border-radius: 10px;
-  border: 1px solid #ccc;
-  background-color: #fff;
+  border: 1px solid #E2E8F0;
+  background-color: #FFFFFF;
   transition: transform 0.2s;
   position: relative;
 }
@@ -244,7 +243,7 @@ body {
 }
 
 .because {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   height: 732px;
   position: relative;
 }
@@ -285,11 +284,11 @@ body {
 .because-card {
   height: 430px;
   width: 33.3333333333%;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   overflow: hidden;
   border-radius: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #E2E8F0;
   margin-top: 40px;
   margin-right: 24px;
 }
@@ -381,7 +380,7 @@ body {
   text-decoration: underline;
 }
 .footer__section.app-links img {
-  width: 119.6640701294;
+  width: 120px;
   height: 40px;
   margin-bottom: 8px;
   display: block;
@@ -663,7 +662,7 @@ body {
 }
 .navbar__logo {
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 800;
   color: #78350F;
 }
 .navbar .navbar__links {
@@ -740,10 +739,10 @@ body {
   font-size: 56px;
   font-weight: 800;
   line-height: 110%;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .the-best__header button {
-  border: 2px solid #ffffff;
+  border: 2px solid #FFFFFF;
   border-radius: 8px;
   padding: 20px 48px;
   background-color: transparent;
@@ -752,8 +751,8 @@ body {
 .the-best__header--button {
   font-size: 24px;
   line-height: 24px;
-  font-weight: 700;
-  color: #ffffff;
+  font-weight: 800;
+  color: #FFFFFF;
 }
 .the-best img {
   width: 1387px;
@@ -787,7 +786,7 @@ body {
 }
 .the-best__card-title {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 800;
   color: #fff;
   margin-bottom: 4px;
 }
@@ -795,7 +794,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 160%;
-  color: #fff;
+  color: #FFFFFF;
 }
 .the-best__card-layout {
   padding: 32px;
@@ -806,7 +805,7 @@ body {
   padding: 16px;
   display: flex;
   border-radius: 8px;
-  border: 1px solid #fff;
+  border: 1px solid #FFFFFF;
   justify-content: center;
 }
 .the-best__card-button img {
@@ -818,7 +817,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-weight: 500;
-  color: #ffffff;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -865,10 +864,10 @@ body {
 .why-join .btn a {
   font-weight: 500;
   font-size: 20px;
+  line-height: 24px;
   text-decoration: none;
   color: #78350F;
   transition: color 0.3s;
-  line-height: 24px;
 }
 .why-join__video img {
   max-width: 100%;
