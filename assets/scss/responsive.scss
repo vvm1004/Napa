@@ -103,7 +103,7 @@
         @include section-padding;
 
         &__container{
-            gap: 0;
+            gap: 0 !important;
             flex-direction: column;
         }
         .feature {
@@ -272,10 +272,12 @@
                 font-size: 32px;
                 font-weight: 700;
             }
-
+            li:not(:first-child){
+                margin-top: 8px;;
+            }
             li {
                 display: flex;
-                align-items: center;
+                align-items: flex-start;
 
                 span {
                     font-size: 16px;
@@ -316,6 +318,10 @@
             position: relative;
             z-index: 2;
             // color: #78350F;
+        }
+
+        &__icon{
+            margin-right: 20px !important;
         }
     }
 
@@ -404,6 +410,9 @@
             ul li:not(:first-child) {
                 display: none;
 
+            }
+            ul li img:nth-of-type(2){
+                display: none;
             }
         }
 

@@ -69,7 +69,7 @@
     padding: 48px 16px !important;
   }
   .features__container {
-    gap: 0;
+    gap: 0 !important;
     flex-direction: column;
   }
   .features .feature {
@@ -193,9 +193,12 @@
     font-size: 32px;
     font-weight: 700;
   }
+  .why-join__content li:not(:first-child) {
+    margin-top: 8px;
+  }
   .why-join__content li {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
   }
   .why-join__content li span {
     font-size: 16px;
@@ -226,6 +229,9 @@
     line-height: 24px;
     position: relative;
     z-index: 2;
+  }
+  .why-join__icon {
+    margin-right: 20px !important;
   }
   .because {
     padding: 48px 16px !important;
@@ -290,6 +296,9 @@
     align-items: center;
   }
   .grow__sidebar ul li:not(:first-child) {
+    display: none;
+  }
+  .grow__sidebar ul li img:nth-of-type(2) {
     display: none;
   }
   .grow h2 {

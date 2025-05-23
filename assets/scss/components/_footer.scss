@@ -87,9 +87,11 @@
       color: $color-muted;
   
       .footer__links {
+        a:not(:first-child) {
+          margin-left: 32px;
+      }
         a {
           color: $color-muted;
-          margin-left: 32px;
           text-decoration: none;
   
           &:hover {
