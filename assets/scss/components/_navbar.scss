@@ -17,6 +17,7 @@
     &__container {
       display: flex;
       align-items: center;
+      justify-content: space-between;
     }
   
     &__logo {
@@ -29,11 +30,23 @@
       list-style: none;
       display: flex;
       align-items: center;
+      gap: 16px;
+      margin: 24px 0;
   
       li {
-        padding: 24px 16px;
-  
+        
         a {
+          font-weight: $font-medium;
+          font-size: 16px;
+          text-decoration: none;
+          color: $color-accent;
+          transition: color 0.3s;
+          line-height: 24px;
+          padding: 12px 8px;
+        }
+      }
+      .btn{
+        a{
           font-weight: $font-medium;
           font-size: 16px;
           text-decoration: none;

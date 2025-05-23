@@ -36,6 +36,9 @@
   }
   .hero .hero__container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
   }
   .hero .hero__image {
     display: none;
@@ -65,6 +68,10 @@
   .features {
     padding: 48px 16px !important;
   }
+  .features__container {
+    gap: 0;
+    flex-direction: column;
+  }
   .features .feature {
     align-items: center !important;
     text-align: center !important;
@@ -89,7 +96,7 @@
   }
   .the-best {
     height: auto;
-    padding: 48px 16px;
+    padding: 48px 16px !important;
   }
   .the-best .rectangle-26 {
     width: 202.09px;
@@ -202,7 +209,7 @@
     background-image: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     padding: 32px 16px;
-    background-color: white;
+    background-color: #FFFFFF;
     border-radius: 30px;
   }
   .why-join__video img {
@@ -221,7 +228,7 @@
     z-index: 2;
   }
   .because {
-    padding: 48px 0;
+    padding: 48px 16px !important;
     height: auto;
   }
   .because .container {

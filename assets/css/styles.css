@@ -516,6 +516,12 @@ body {
   line-height: 160%;
   padding-bottom: 32px;
 }
+.hero-wrapper .hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
 .hero-wrapper .hero__button .btn {
   padding: 16px 32px;
   margin-right: 16px;
@@ -559,6 +565,12 @@ body {
   gap: 20px;
   padding: 80px;
 }
+.hero-wrapper .features__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
 .hero-wrapper .features .feature {
   position: relative;
 }
@@ -566,7 +578,7 @@ body {
   content: url(../icon/feature/Cup.png);
   position: absolute;
   top: -24%;
-  left: 6%;
+  left: 4%;
   display: block;
   z-index: -1;
 }
@@ -582,7 +594,7 @@ body {
   content: url(../icon/feature/Tivi.png);
   position: absolute;
   top: -4%;
-  left: 14%;
+  left: 13%;
   display: block;
   z-index: -1;
 }
@@ -659,6 +671,7 @@ body {
 .navbar__container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .navbar__logo {
   font-size: 32px;
@@ -669,11 +682,19 @@ body {
   list-style: none;
   display: flex;
   align-items: center;
-}
-.navbar .navbar__links li {
-  padding: 24px 16px;
+  gap: 16px;
+  margin: 24px 0;
 }
 .navbar .navbar__links li a {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: #78350F;
+  transition: color 0.3s;
+  line-height: 24px;
+  padding: 12px 8px;
+}
+.navbar .navbar__links .btn a {
   font-weight: 500;
   font-size: 16px;
   text-decoration: none;
